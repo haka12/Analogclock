@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Analog Clock</title>
+</head>
+<body>
+    <div class="analog clock">
+        <svg width="200" height="200">
+            <circle id ="circle" cx="100" cy="100" r="98"/>
+            <circle id="midcircle" cx="100" cy="100" r="3"/>
+            <line id="hourhand" x1="100" y1="100" x2="100" y2="25"/> 
+            <line id="minutehand" x1="100" y1="100" x2="100" y2="20" />
+            <line id="secondhand" x1="100" y1="100" x2="100" y2="15"/>      
+            <text x="90" y="25">12</text>  
+            <text x="180" y="100">3</text>
+            <text x="100" y="185">6</text>
+            <text x="15" y="100">9</text>
+        </svg>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
