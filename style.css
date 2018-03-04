@@ -1,0 +1,26 @@
+
+.analog #circle{
+    stroke: black;
+    stroke-width: 4;
+    fill: rgb(231, 142, 142);
+}
+.analog #midcircle{
+    stroke: rgb(240, 108, 108);
+    stroke-width: 1;
+}
+.analog #hourhand{
+    stroke: black;
+    stroke-width: 5;
+    transform-origin: 100px 100px;
+}
+.analog #minutehand{
+    stroke: rgb(223, 18, 18);
+    stroke-width: 4;
+    transform-origin: 100px 100px;
+}
+.analog #secondhand{
+    stroke:rgb(216, 212, 212);
+    stroke-width: 3;
+    transform-origin: 100px 100px;
+}
+
