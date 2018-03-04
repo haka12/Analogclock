@@ -1,6 +1,11 @@
 var secondhand = document.querySelector("#secondhand");
 var minutehand = document.querySelector("#minutehand");
 var hourhand = document.querySelector("#hourhand");
+
+   one= document.querySelector("#one");
+   one.style.transformOrigin="100px 100px";
+   one.style.transform="rotate("+30+"deg)";
+
 function update(){
     var date = new Date();
     console.log(date);
