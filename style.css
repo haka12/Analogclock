@@ -22,4 +22,7 @@
     stroke-width: 3;
     transform-origin: 100px 100px;
 }
+.analog #one{
+    font-size: 10px;
+}
 
